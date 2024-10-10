@@ -78,6 +78,11 @@ body {
 	flex: 2
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+	color: #000;
+}
+
 .about-me__title {
 	margin-top: 1em;
 	margin-bottom: 60px;
@@ -111,7 +116,7 @@ body {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-	color: #fff;
+	color: black;
 	background-color: #BEB45A;
 	border-radius: 0;
 }
@@ -399,4 +404,14 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
+}
+
+footer {
+	background-color: dimgray;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	border-top: 1px solid #dddddd;
+	margin-top: 20px;
+
 }

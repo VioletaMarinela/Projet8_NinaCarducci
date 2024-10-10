@@ -20,8 +20,36 @@
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:wght@300;400;800&display=swap"
 		rel="stylesheet">
 
-	<link rel="preload" href="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" as="image">
-	<link rel="preload" href="./assets/images/nina.png" as="image">
+	<link rel="preload" href="./assets/images/slider/ryoji-iwata.webp" as="image">
+	<link rel="preload" href="./assets/images/nina.webp" as="image">
+
+	<script type="application/ld+json">
+		{  
+		  "@context": "https://schema.org",  
+		  "@type": "ProfessionalService",  
+		  "serviceType": "Photography",  
+		  "provider": {  
+			"@type": "Organization",  
+			"name": "Nina Carducci",  
+			"url": "https://www.votre-site.com",  
+			"logo": "./assets/images/nina.png",  
+			"sameAs": "https://www.instagram.com/ninacarducci.photo/?hl=fr",  
+			"contactPoint": {  
+			  "@type": "ContactPoint",  
+			  "telephone": "+33 05 56 67 78 89", 
+			  "contactType": "Customer Service"  
+			}  
+		  },  
+		  "description": "Capturer des moments précieux avec un regard unique.",  
+		  "address": {  
+			"@type": "PostalAddress",  
+			"addressLocality": "Bordeaux",  
+			"addressRegion": "Votre Région",  
+			"postalCode": "33200",
+			"streetAddress": "68 avenue Alsace-Lorraine"  
+		  }  
+		}  
+		</script>
 
 </head>
 
@@ -54,7 +82,7 @@
 				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<picture>
-							<source srcset="./assets/images/slider/ryoji-iwata-sliderMobile.webp"
+							<source srcset="./assets/images/slider/ryoji-iwata-Mobile.webp"
 								media="(max-width: 768px)" />
 							<img src="./assets/images/slider/ryoji-iwata.webp" class="d-block w-100"
 								alt="Homme qui traverse un passage piéton" />
@@ -63,7 +91,7 @@
 					<div class="carousel-item">
 						<picture>
 							<source srcset="
-							  ./assets/images/slider/nicholas-green-sliderMobile.webp
+							  ./assets/images/slider/nicholas-green-Mobile.webp
 							" media="(max-width: 768px)" />
 							<img src="./assets/images/slider/nicholas-green.webp" class="d-block w-100"
 								alt="Foule qui danse" />
@@ -71,7 +99,7 @@
 					</div>
 					<div class="carousel-item">
 						<picture>
-							<source srcset="./assets/images/slider/mariageDanseSliderMobile.webp"
+							<source srcset="./assets/images/slider/danceMariageMobile.webp"
 								media="(max-width: 768px)" />
 							<img src="./assets/images/slider/danceMariage.webp" class="d-block w-100"
 								alt="Mariga Danse" />

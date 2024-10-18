@@ -71,15 +71,41 @@ body {
 
 .picture img {
 	width: 100%;
+	height: auto;
 }
 
 #about-me {
 	flex: 2
 }
 
+.carousel-item {
+	transition: transform 0.5s ease;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
 	color: #000;
+}
+
+@media (max-width: 768px) {
+	.carousel-item {
+		height: auto;
+	}
+
+	.carousel-item img {
+		width: 100%;
+		height: auto;
+	}
+
+	.carousel-indicators {
+		bottom: 10px;
+	}
+
+	.carousel-control-prev,
+	.carousel-control-next {
+		width: 40px;
+		height: 40px;
+	}
 }
 
 .about-me__title {
@@ -141,7 +167,7 @@ body {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	padding: .5em;
+	padding: 0.5em;
 }
 
 .mg-prev,
@@ -186,7 +212,7 @@ body {
 	background-color: #1C6474;
 	position: absolute;
 	width: 100%;
-	height: 30%;
+	/*height: 30%;*/
 	bottom: 0;
 	left: 0;
 	z-index: 0;
@@ -264,7 +290,7 @@ form textarea {
 
 input[type="submit"] {
 	background-color: #BEB45A;
-	padding: .5em 1em
+	padding: 0.5em 1em
 }
 
 @media all and (max-width: 1180px) {

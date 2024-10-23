@@ -75,6 +75,7 @@ body {
 }
 
 .carousel-item {
+	top: 50%;
 	transition: transform 0.5s ease;
 }
 
@@ -101,7 +102,7 @@ body {
 	.carousel-control-prev,
 	.carousel-control-next {
 		width: 40px;
-		height: 40px;
+		height: 225px;
 	}
 }
 
